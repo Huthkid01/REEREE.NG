@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REEREE.NG - Page 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="left-area">
+      <div class="logo">REEREE.NG</div>
+
+      <div class="search-box">
+        <input type="text" id="search" placeholder="Search products...">
+        <button>🔍</button>
+      </div>
+    </div>
+
+    <div id="cart-icon" class="cart-icon">
+      🛒<span id="cart-count">0</span>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Welcome To REEREE.NG</h1>
+    <h1>Explore Our Fashion Collection</h1>
+    <p>Trendy, classy and affordable wears</p>
+  </header>
+
+  <!-- PRODUCTS -->
+  <section class="product-grid">
+    <div class="product" data-name="Ankara Gown" data-price="12000">
+      <img src="/Img1.JPG" alt="Ankara Gown">
+      <h3>Ankara Gown</h3>
+      <p class="price">NGN 12,000</p>
+      <button onclick="addToCart('Ankara Gown', 12000)">Add to Cart</button>
+    </div>
+
+    <div class="product" data-name="Men’s Native" data-price="15000">
+      <img src="/Img2.JPG" alt="Men’s Native">
+      <h3>Men’s Native</h3>
+      <p class="price">NGN 15,000</p>
+      <button onclick="addToCart('Men’s Native', 15000)">Add to Cart</button>
+    </div>
+
+    <div class="product" data-name="Ladies Two-Piece" data-price="9500">
+      <img src="/Img3.JPG" alt="Ladies Two-Piece">
+      <h3>Ladies Two-Piece</h3>
+      <p class="price">NGN 9,500</p>
+      <button onclick="addToCart('Ladies Two-Piece', 9500)">Add to Cart</button>
+    </div>
+    
+     <div class="product" data-name="Ladies Two-Piece" data-price="9500">
+    <img src="/Img4JPG.JPG" alt="Ladies Two-Piece">
+    <h3>Ladies Two-Piece</h3>
+    <p class="price">NGN 9,500</p>
+    <button onclick="addToCart('Ladies Two-Piece', 9500)">Add to Cart</button>
+     </div>
+
+    <div class="product" data-name="Ladies Two-Piece" data-price="9500">
+  <img src="/Img5JPG.JPG" alt="Ladies Two-Piece">
+  <h3>Ladies Two-Piece</h3>
+  <p class="price">NGN 9,500</p>
+  <button onclick="addToCart('Ladies Two-Piece', 9500)">Add to Cart</button>
+</div>
+
+<div class="product" data-name="Ladies Two-Piece" data-price="9500">
+  <img src="/Img6JPG.JPG" alt="Ladies Two-Piece">
+  <h3>Ladies Two-Piece</h3>
+  <p class="price">NGN 9,500</p>
+  <button onclick="addToCart('Ladies Two-Piece', 9500)">Add to Cart</button>
+ </div> 
+
+ <div class="product" data-name="Ladies Two-Piece" data-price="9500">
+  <img src="/Img7JPG.JPG" alt="Ladies Two-Piece">
+  <h3>Ladies Two-Piece</h3>
+  <p class="price">NGN 9,500</p>
+  <button onclick="addToCart('Ladies Two-Piece', 9500)">Add to Cart</button>
+</div>
+  </section>
+
+  <!-- PAGINATION -->
+<div class="pagination">
+  <a href="#" class="arrow disabled">&#8592;</a>
+  <a href="index.html" class="active">1</a>
+  <a href="page2.html">2</a>
+  <a href="page3.html">3</a>
+  <a href="page2.html" class="arrow">&#8594;</a>
+</div>  
+
+  <!-- CART POPUP -->
+  <div id="cart">
+    <h3>Your Cart</h3>
+    <ul id="cart-items"></ul>
+    <div class="cart-actions">
+      <button class="btn clear">Clear</button>
+      <button class="btn checkout">Checkout</button>
+    </div>
+  </div>
+
+  <!-- PAYMENT MODAL -->
+  <div id="paymentModal" class="payment-modal">
+    <div class="payment-content">
+      <h2>💳 Payment Details</h2>
+      <p><strong>Account Name:</strong> REEREE.NG</p>
+      <p><strong>Bank:</strong> Access Bank</p>
+      <p><strong>Account Number:</strong> 1234567890</p>
+      <p id="payment-amount"><strong>Amount to Pay:</strong> NGN 0</p>
+
+      <button id="confirmPaymentBtn">✅ I’ve made the payment</button>
+      <button id="closeModalBtn">❌ Cancel</button>
+    </div>
+  </div>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/2348064601319" target="_blank" class="whatsapp-float">
+    <img src="/whatsapplogo.jpeg" alt="WhatsApp">
+  </a>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>©️ 2025 REEREE.NG. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
