@@ -300,7 +300,7 @@ header p {
   height: 56px;
   border-radius: 50%;
   background-color: #25d366;
-  color: #fff;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -315,7 +315,8 @@ header p {
 .whatsapp-float img {
   width: 60%;
   height: 60%;
-  object-fit: contain;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 /* ------------------------------
